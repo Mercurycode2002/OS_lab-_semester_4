@@ -1,0 +1,21 @@
+Script started on 2023-02-01 08:47:55+05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="168" LINES="45"]
+[?2004h]0;root@student-OptiPlex-7070: /home/studentroot@student-OptiPlex-7070:/home/student# useradd isi[K[Kdi[K[K[Ksirgeee[K[K[K[K_gr=ee[K[K[K[Kee
+[?2004l[?2004h]0;root@student-OptiPlex-7070: /home/studentroot@student-OptiPlex-7070:/home/student# passwd sir_gee
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+Sorry, passwords do not match.
+New password: 
+BAD PASSWORD: The password fails the dictionary check - it is based on a dictionary word
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@student-OptiPlex-7070: /home/studentroot@student-OptiPlex-7070:/home/student# passwd sir_gee[1@userad[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kudent[K[K[K[K[Ktudent_gee
+[?2004l[?2004h]0;root@student-OptiPlex-7070: /home/studentroot@student-OptiPlex-7070:/home/student# useradd student_gee[5Ppasswd sir_gee[1P_gee[1P_geeu_geed_geen_geee_geet_gee[1P_gee[1P_gee[1P_gee[1P_geed_gee[1P_gee[1P_geet_geeu_geed_geee_geen_geet_gee
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@student-OptiPlex-7070: /home/studentroot@student-OptiPlex-7070:/home/student# exi[Kit
+[?2004lexit
+
+Script done on 2023-02-01 08:50:36+05:00 [COMMAND_EXIT_CODE="0"]
