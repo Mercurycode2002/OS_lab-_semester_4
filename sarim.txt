@@ -1,1667 +1,0 @@
-Script started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│   [?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt[K]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004lScript started on 2023-02-01 08:39:26+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chrome-stable_current_amd64.deb[0m
-│   └── [01;31mVNC-Viewer-6.22.515-Linux-x64.deb[0m
-├── [01;34mMusic[0m
-├── [01;34mPictures[0m
-├── [01;34mPublic[0m
-├── sarim.txt
-├── [01;34msnap[0m
-│   ├── [01;34mfirefox[0m
-│   │   ├── [01;34m2277[0m
-│   │   ├── [01;34m2311[0m
-│   │   ├── [01;34mcommon[0m
-│   │   └── [40;31;01mcurrent[0m -> [00m1589[0m
-│   └── [01;34msnapd-desktop-integration[0m
-│       ├── [01;34m14[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34m49[0m
-│       │   ├── [01;34mDesktop[0m
-│       │   ├── [01;34mDocuments[0m
-│       │   ├── [01;34mDownloads[0m
-│       │   ├── [01;34mMusic[0m
-│       │   ├── [01;34mPictures[0m
-│       │   ├── [01;34mPublic[0m
-│       │   ├── [01;34mTemplates[0m
-│       │   └── [01;34mVideos[0m
-│       ├── [01;34mcommon[0m
-│       └── [01;36mcurrent[0m -> [01;34m49[0m
-├── [01;34mTemplates[0m
-├── typescript
-└── [01;34mVideos[0m
-
-34 directories, 5 files
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-
-Script done on 2023-02-01 08:39:32+05:00 [COMMAND_EXIT_CODE="0"]
-: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ scrip[Kpt 
-[?2004lScript started, output log file is 'typescript'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ [?2004l
-exit
-Script done.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  sarim.txt  [01;34mTemplates[0m   [01;34mVideos[0m
-[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34msnap[0m       typescript
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ cat sarim.txt
-[?2004l[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ sr[Kcript sarim.txt
-[?2004lScript started, output log file is 'sarim.txt'.
-[?2004h]0;student@student-OptiPlex-7070: ~[01;32mstudent@student-OptiPlex-7070[00m:[01;34m~[00m$ tree
-[?2004l[01;34m.[0m
-├── [01;34mDesktop[0m
-├── [01;34mDocuments[0m
-├── [01;34mDownloads[0m
-│   ├── [01;31mgoogle-chr
