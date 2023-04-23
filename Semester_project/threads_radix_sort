@@ -1,0 +1,109 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+#define MAX_THREADS 4
+#define MAX_NUMS 1000
+#define MAX_DIGITS 3 // For simplicity, we assume that each number has at most 3 digits
+
+int nums[MAX_NUMS];
+int temp[MAX_NUMS];
+
+// Thread argument struct
+struct thread_arg {
+    int start_idx;
+    int end_idx;
+    int digit_pos;
+};
+
+// Helper function to get the digit at the specified position in a number
+int get_digit(int num, int digit_pos) {
+    int divisor = 1;
+    for (int i = 1; i < digit_pos; i++) {
+        divisor *= 10;
+    }
+    return (num / divisor) % 10;
+}
+
+// Radix sort worker function
+void* radix_sort_worker(void* arg) {
+    struct thread_arg* t_arg = (struct thread_arg*) arg;
+    int start_idx = t_arg->start_idx;
+    int end_idx = t_arg->end_idx;
+    int digit_pos = t_arg->digit_pos;
+
+    int count[MAX_DIGITS] = {0};
+
+    // Count the number of occurrences of each digit
+    for (int i = start_idx; i < end_idx; i++) {
+        int digit = get_digit(nums[i], digit_pos);
+        count[digit]++;
+    }
+
+    // Compute the starting index for each digit
+    int cum_count[MAX_DIGITS] = {0};
+    cum_count[0] = start_idx;
+    for (int i = 1; i < MAX_DIGITS; i++) {
+        cum_count[i] = cum_count[i - 1] + count[i - 1];
+    }
+
+    // Move the numbers to their sorted positions in the temporary array
+    for (int i = start_idx; i < end_idx; i++) {
+        int digit = get_digit(nums[i], digit_pos);
+        temp[cum_count[digit]] = nums[i];
+        cum_count[digit]++;
+    }
+
+    // Copy the sorted numbers back to the original array
+    for (int i = start_idx; i < end_idx; i++) {
+        nums[i] = temp[i];
+    }
+
+    pthread_exit(NULL);
+}
+
+// Main radix sort function
+void radix_sort(int num_threads) {
+    pthread_t threads[num_threads];
+    struct thread_arg args[num_threads];
+
+    for (int digit_pos = 1; digit_pos <= MAX_DIGITS; digit_pos++) {
+        int chunk_size = MAX_NUMS / num_threads;
+        for (int i = 0; i < num_threads; i++) {
+            args[i].digit_pos = digit_pos;
+            args[i].start_idx = i * chunk_size;
+            args[i].end_idx = (i == num_threads - 1) ? MAX_NUMS : (i + 1) * chunk_size;
+            pthread_create(&threads[i], NULL, radix_sort_worker, (void*) &args[i]);
+        }
+
+        for (int i = 0; i < num_threads; i++) {
+            pthread_join(threads[i], NULL);
+        }
+    }
+}
+
+// Helper function to print the array
+void print_array() {
+    for (int i = 0; i < MAX_NUMS; i++) {
+        printf("%d ", nums[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    // Initialize the array with random numbers
+    for (int i = 0; i < MAX_NUMS; i++) {
+        nums[i] = rand() % 1000;
+    }
+
+    printf("Unsorted array:\n");
+    print_array();
+
+    int num_threads = MAX_THREADS;
+    radix_sort(num_threads);
+
+    printf("Sorted array:\n");
+    print_array();
+
+    return 0;
+}
