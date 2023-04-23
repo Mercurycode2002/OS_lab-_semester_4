@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+void radix_sort(int* arr, int n);
+void counting_sort(int* arr, int n, int exp);
+void print_array(int* arr, int n);
+
+int main() {
+    int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    printf("Original array:\n");
+    print_array(arr, n);
+
+    radix_sort(arr, n);
+
+    printf("Sorted array:\n");
+    print_array(arr, n);
+
+    return 0;
+}
+
+void radix_sort(int* arr, int n) {
+    int max = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    for (int exp = 1; max / exp > 0; exp *= 10) {
+        pid_t pid = fork();
+        if (pid < 0) {
+            perror("fork error");
+            exit(EXIT_FAILURE);
+        } else if (pid == 0) {
+            counting_sort(arr, n, exp);
+            exit(EXIT_SUCCESS);
+        }
+    }
+
+    for (int i = 0; i < 10; i++) {
+        wait(NULL);
+    }
+}
+
+void counting_sort(int* arr, int n, int exp) {
+    int output[n];
+    int count[10] = {0};
+
+    for (int i = 0; i < n; i++) {
+        count[(arr[i] / exp) % 10]++;
+    }
+
+    for (int i = 1; i < 10; i++) {
+        count[i] += count[i - 1];
+    }
+
+    for (int i = n - 1; i >= 0; i--) {
+        output[count[(arr[i] / exp) % 10] - 1] = arr[i];
+        count[(arr[i] / exp) % 10]--;
+    }
+
+    for (int i = 0; i < n; i++) {
+        arr[i] = output[i];
+    }
+}
+
+void print_array(int* arr, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
