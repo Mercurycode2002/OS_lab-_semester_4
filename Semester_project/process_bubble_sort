@@ -1,0 +1,86 @@
+#include <iostream>
+#include <unistd.h>
+#include <sys/wait.h>
+using namespace std;
+
+void bubbleSort(int* arr, int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j+1]) {
+                swap(arr[j], arr[j+1]);
+            }
+        }
+    }
+}
+
+void bubbleSortFork(int* arr, int n) {
+    int mid = n/2;
+    int left[mid];
+    int right[n-mid];
+
+    // Divide the array into two halves
+    for (int i = 0; i < mid; i++) {
+        left[i] = arr[i];
+    }
+    for (int i = mid; i < n; i++) {
+        right[i-mid] = arr[i];
+    }
+
+    // Create a child process to sort the left half
+    pid_t pid = fork();
+    if (pid == 0) {
+        bubbleSort(left, mid);
+        _exit(0);
+    }
+
+    // Sort the right half in the parent process
+    bubbleSort(right, n-mid);
+
+    // Wait for the child process to finish
+    wait(NULL);
+
+    // Merge the sorted halves
+    int i = 0, j = 0, k = 0;
+    while (i < mid && j < n-mid) {
+        if (left[i] < right[j]) {
+            arr[k] = left[i];
+            i++;
+        } else {
+            arr[k] = right[j];
+            j++;
+        }
+        k++;
+    }
+    while (i < mid) {
+        arr[k] = left[i];
+        i++;
+        k++;
+    }
+    while (j < n-mid) {
+        arr[k] = right[j];
+        j++;
+        k++;
+    }
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    int arr[n];
+    cout << "Enter " << n << " elements: ";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    bubbleSortFork(arr, n);
+
+    cout << "Sorted array: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
