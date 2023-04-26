@@ -36,4 +36,23 @@ Introduction to linux hardening security and firewalls:
     2. source code available
     disadvantages:
     1. NO releases available on github.
-    
+    Lynis:
+    Lynis is a battle-tested security tool for systems running Linux, macOS, or Unix-based operating system. 
+    It performs an extensive health scan of your systems to support system hardening and compliance testing. 
+    The project is open source software with the GPL license and available since 2007.
+    Advantages:
+    1.Much faster
+    2.No pollution of log files
+    3.Much lower risk of disruption to business services
+    4.Host-based scans provide a more in-depth audit
+    nixarmor:
+    advantages:
+    1.written in shell 
+    2.source code available
+    disadvantages: 
+    1.Not ready for production 
+    2. no updates.
+  SOme competitors:
+  1.JShielder
+  2.OpenSCAP
+  
