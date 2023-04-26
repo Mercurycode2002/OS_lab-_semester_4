@@ -1,0 +1,39 @@
+Squid:
+  it is a popular open source caching and proxy server that runs on unix OS,
+  it has features like:
+    1. Cacheing web pages
+    2. filtering
+    3. Creating logs
+Introduction to linux hardening security and firewalls:
+ it is the process of strengthening the security measures of the linux system
+ to make it harder for attackers to gain control of the system
+ some basic hardening techniques include:
+ 1. Disabling unnecessary servies and applications using the systemcl command and 
+  sevice manager.
+ 2.Keeping the system up-to-date with security patches and
+  updates. that means running the upgrade command on linux. 
+  Remember to update the kernel aswell.
+ 3.Configuring and using a firewall to control network traffic. ther are several available
+  to suit ur needs such as ufw and firewalld
+ 4.Implementing strong passwords. this includes that we set rules such as length, 
+  complexity, age, and history.
+ 5.Configuring file system permissions to restrict access to sensitive files 
+  and directories.
+ 6.Implementing user management best practices, such as limiting user 
+   privileges and monitoring user activity, implementing strong password policies,
+   monitoring user activity,conducting regular security training
+ 7.Using tool:
+    Zeus:
+    Zeus is a tool to perform a quick security scan of an AWS environment. 
+    It helps to find missing security controls, so additional system hardening 
+    measures can be applied to systems.Zeus runs a set of tests that individually 
+    look at how an AWS environment is configured. Within Identity and Access Management 
+    (IAM) it looks at several aspects regarding the usage of a root user, multi-factor 
+    authentication, and the password policy. It looks at common best practices that also 
+    apply to Linux systems in general, complemented by AWS specific settings.
+    advantages:
+    1. written in bash
+    2. source code available
+    disadvantages:
+    1. NO releases available on github.
+    
