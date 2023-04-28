@@ -13,3 +13,7 @@ here we will setup our own firewall we will be using nft table, we can easily in
 we can look at the output here:
 
 ![display config of nft table: ](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/nftsetup.png)
+
+finally we can set to auto enable here:
+
+![auto enable nft](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/enablenft.png)
