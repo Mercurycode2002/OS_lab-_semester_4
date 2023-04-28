@@ -25,3 +25,14 @@ we can add our own password parameters here:
 we can set the age of the passwords to 90 days:
 
 ![90 day rule](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/changed_age.png)
+
+### Implementing user management best practices, such as limiting user privileges and monitoring user activity
+here we can see the system logs:
+
+![syslogs](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/syslogs.png)
+
+here we can see all the users and thier latest activities:
+
+![user activity](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/last_user_activity.png)
+
+![user actoviut](https://github.com/Mercurycode2002/OS_lab-_semester_4/blob/main/Lab_11/Images/last_logged.png)
