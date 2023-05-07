@@ -4,9 +4,9 @@
 #include <unistd.h>
 #include <time.h>
 #include <sys/wait.h>
-#include <sys/shm.h>
 #include <iostream>
 using namespace std;
+
 void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
@@ -15,7 +15,7 @@ void merge(int arr[], int l, int m, int r) {
         L[i] = arr[l + i];
     for (int j = 0; j < n2; j++)
         R[j] = arr[m + 1 + j];
- 
+
     int i = 0, j = 0, k = l;
     while (i < n1 && j < n2) {
         if(L[i] <= R[j]){
@@ -63,11 +63,24 @@ void merge_sort(int arr[], int l, int r) {
 
 int main(int argc, char* argv[]){
     int s[] = {2, 3, 4, 56, 0, 32, 44, 5};
-    merge_sort(s, 0, 7);
+    int size = sizeof(s)/sizeof(s[0]);
 
-    cout<<"sorting left side: "<<endl;
-    for(int i = 0; i < 8; i++)
-        cout<<s[i]<<", ";
+    clock_t start_time, end_time;
+    double total_time;
+
+    start_time = clock(); // start the clock
+
+    merge_sort(s, 0, size-1);
+
+    end_time = clock(); // stop the clock
+    total_time = ((double) (end_time - start_time)) / CLOCKS_PER_SEC;
+
+    cout<<"sorted array: "<<endl;
+    for(int i = 0; i < size; i++)
+        cout<<s[i]<<" ";
+    cout<<endl;
+
+    cout<<"Time taken: "<<total_time<<" seconds"<<endl;
 
     return 0;
 }
