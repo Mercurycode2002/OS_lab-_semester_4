@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <time.h>
 
-#define SIZE 10
+#define SIZE 8
 
 void selection_sort(int arr[], int start, int end) {
     for (int i = start; i < end - 1; i++) {
@@ -20,19 +21,24 @@ void selection_sort(int arr[], int start, int end) {
 }
 
 int main() {
-    int arr[SIZE] = {3, 5, 2, 6, 8, 1, 9, 7, 4, 0};
+    int arr[SIZE] = {2, 3, 4, 56, 0, 32, 44, 5};
+    
     int mid = SIZE / 2;
+
+    struct timespec start_time, end_time;
+
+    clock_gettime(CLOCK_MONOTONIC, &start_time); // Start timer
 
     pid_t pid = fork();
     if (pid == 0) {
         // Child process
         selection_sort(arr, 0, mid);
-        printf("Child process sorted first half of array.\n");
+       
         exit(0);
     } else if (pid > 0) {
         // Parent process
         selection_sort(arr, mid, SIZE);
-        printf("Parent process sorted second half of array.\n");
+       
 
         // Wait for child process to complete
         wait(NULL);
@@ -60,9 +66,14 @@ int main() {
             printf("%d ", merged_arr[i]);
         }
         printf("\n");
+
+        clock_gettime(CLOCK_MONOTONIC, &end_time); // End timer
+
+        double elapsed_time = (end_time.tv_sec - start_time.tv_sec) + (end_time.tv_nsec - start_time.tv_nsec) / 1000000000.0;
+        printf("Elapsed time: %f seconds\n", elapsed_time);
     } else {
         printf("Fork failed!\n");
     }
 
-    return 0;
+    return 0;
 }
